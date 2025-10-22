@@ -4,7 +4,7 @@ namespace DecoderScript;
 
 public static class DecoderManager
 {
-    public static string Decode(string utf8String)
+    public static string DecodeString(string utf8String)
     {
         // Constants
         int subtractionValue = 0;
@@ -43,14 +43,13 @@ public static class DecoderManager
                 continue;
             }
 
-#if WINDOWS
+
             //windows only
             if (b == "\n")
             {
                 list.Add(NEWLINE_REPLACEMENT_FOR_WINDOWS_ONLY);
                 continue;
             }
-#endif
 
             list.Add(b);
         }

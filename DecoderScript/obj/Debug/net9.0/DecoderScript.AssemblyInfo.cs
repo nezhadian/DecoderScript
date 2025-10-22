@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DecoderScript")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df1bdda2497c9129e72a8232221c2d871006b125")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66a5d9b46d039ec00a7ec04999fcca5bc24b6a0e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DecoderScript")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DecoderScript")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

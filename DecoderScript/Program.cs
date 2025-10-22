@@ -7,7 +7,7 @@ var file = @"samples\en3.txt";
 
 var fileContent = File.ReadAllText(file, Encoding.UTF8);
 
-var output = DecoderManager.Decode(fileContent);
+var output = DecoderManager.DecodeString(fileContent);
 
 File.WriteAllText("output-" + Path.GetFileName(file),output);
 
